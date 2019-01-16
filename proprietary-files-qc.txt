@@ -47,7 +47,7 @@ vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so|733e30f646b87e4f5ee90baea0ce5e7982d607c9
+vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
@@ -57,7 +57,7 @@ vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcreverb.so|8bdd74d69593cd838e4b92d9b2884e0c4140226f 
+vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 
 # ANT+
@@ -384,67 +384,25 @@ vendor/lib/libwms.so
 vendor/lib64/libwms.so
 
 # Perf
-lib/vendor.qti.hardware.iop@1.0.so
-lib/vendor.qti.hardware.iop@2.0.so
 lib/vendor.qti.hardware.perf@1.0.so
-lib64/vendor.qti.hardware.iop@1.0.so
-lib64/vendor.qti.hardware.iop@2.0.so
 lib64/vendor.qti.hardware.perf@1.0.so
 vendor/bin/energy-awareness
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/bin/msm_irqbalance
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 vendor/etc/perf/perfboostsconfig.xml
-<<<<<<< HEAD
 vendor/lib/libfeedbackhandler.so
-=======
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml|07bb8d519b4d7ec905429772fef6c0577082d0af
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
->>>>>>> 0bae054... vince: Enable QCOM Boost framework
 vendor/lib/libperfgluelayer.so
-vendor/lib/libqti-iopd-client.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
-<<<<<<< HEAD
 vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
 vendor/lib64/libfeedbackhandler.so
-=======
-vendor/lib/vendor.qti.hardware.iop@1.0.so
-vendor/lib/vendor.qti.hardware.iop@2.0.so
-vendor/lib/vendor.qti.hardware.perf@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
->>>>>>> 0bae054... vince: Enable QCOM Boost framework
 vendor/lib64/libperfgluelayer.so
-vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
-<<<<<<< HEAD
 vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
-=======
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
-vendor/lib64/vendor.qti.hardware.perf@1.0.so
->>>>>>> 0bae054... vince: Enable QCOM Boost framework
-
-# QTI Performance libs
--framework/QPerformance.jar
--framework/UxPerformance.jar
-bin/perfservice
-etc/init/perfservice.rc
-etc/perf/whitelistedapps.xml
-lib/libqti-at.so
-lib/libqti-perfd-client_system.so
-lib/libqti-iopd-client_system.so
-lib/libqti-util_system.so
-lib/libqti_performance.so
-lib64/libqti-at.so
-lib64/libqti-perfd-client_system.so
-lib64/libqti-iopd-client_system.so
-lib64/libqti-util_system.so
-lib64/libqti_performance.so
 
 # Peripheral manager
 vendor/bin/pm-proxy
@@ -673,52 +631,3 @@ vendor/lib/libwvhidl.so
 
 # Wi-Fi
 vendor/bin/wcnss_service
-<<<<<<< HEAD
-=======
-
-# Wi-Fi Display
-bin/wfdservice
-etc/init/wfdservice.rc
-etc/wfdconfig.xml
-etc/wfdconfigsink.xml
--framework/WfdCommon.jar
-lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-lib64/extractors/libmmparser.so
-lib64/libFileMux.so
-lib64/libmmparser_lite.so
-lib64/libmmosal.so
-lib64/libwfdclient.so
-lib64/libwfdnative.so
-lib/extractors/libmmparser.so
-lib/libFileMux.so
-lib/libmmparser_lite.so
-lib/libmmosal.so
-lib/libmmrtpdecoder.so
-lib/libmmrtpencoder.so
-lib/libOmxMux.so
-lib/libwfdavenhancements.so
-lib/libwfdcodecv4l2.so
-lib/libwfdcommonutils.so
-lib/libwfdconfigutils.so
-lib/libwfdmminterface.so
-lib/libwfdmmsink.so
-lib/libwfdmmsrc.so
-lib/libwfdrtsp.so
-lib/libwfdservice.so
-lib/libwfdsm.so
-lib/libwfduibcinterface.so
-lib/libwfduibcsink.so
-lib/libwfduibcsinkinterface.so
-lib/libwfduibcsrc.so
-lib/libwfduibcsrcinterface.so
--priv-app/WfdService/WfdService.apk
-vendor/bin/wifidisplayhalservice
-vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
-vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
-vendor/lib/libwfdcommonutils_proprietary.so
-vendor/lib/libwfdhaldsmanager.so
-vendor/lib/libwfdhdcpcp.so
-vendor/lib/libwfdmmservice.so
-vendor/lib/libwfdmodulehdcpsession.so
-vendor/lib64/libwfdhdcpcp.so
->>>>>>> 0bae054... vince: Enable QCOM Boost framework
