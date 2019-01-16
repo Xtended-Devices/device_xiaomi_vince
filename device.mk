@@ -301,7 +301,8 @@ PRODUCT_PACKAGES += \
     libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libaacwrapper
 
 # Power
 PRODUCT_PACKAGES += \
