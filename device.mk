@@ -116,13 +116,12 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor \
-    Camera2
+    Gcam
 
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
 
-<<<<<<< HEAD:device.mk
 # Consumerir
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
@@ -161,7 +160,7 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.display.color@1.0-impl
 
- Doze mode
+# Doze mode
 PRODUCT_PACKAGES += \
     XiaomiDoze
 
