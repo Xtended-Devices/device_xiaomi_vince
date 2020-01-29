@@ -19,3 +19,8 @@ DEVICE_PROVISIONED=1
 # Set network mode to (T/L/G/W/1X/EVDO, T/L/G/W/1X/EVDO) for 7+7 mode device on DSDS mode
 #
 ro.telephony.default_network=22,22
+
+# ADB on boot
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
